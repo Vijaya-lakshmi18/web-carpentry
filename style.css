@@ -11,13 +11,15 @@
 
 .img container{
     position: relative;
-    width:800px;
-
+    max-width:800px;
+    width: 100%;
+    margin: auto;
 }
 .img container img{
     width: 100px;
     display: block;
     background-color: rgb(33, 36, 36);
+    height: auto;
 }
 .textbox{
     position: absolute;
@@ -27,7 +29,10 @@
     color: black;
     border-radius: 5px;
     padding: 10px;
-    width: 400px;
+    max-width: 400px;
+    width: 90%;
+    transform: translate(-50%);
+    box-sizing: border-box;
 }
 #one{
     text-align: center;
