@@ -1,0 +1,59 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    background: #f0adad;
+    justify-content: center;
+}
+.page{
+    max-width:900px;
+    margin: 40px auto;
+    background: white;
+    padding:40px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+}
+.catalogue-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    border-radius: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.catalogue-item img{
+    width:250px;
+    height:250px;
+    border-radius: 8px;
+    margin-right: 20Px;
+}
+.catalogue-item .info{
+    flex:1;
+}
+.catalogue-item p{
+    color:#555;
+    font-size: 16px;
+}
+.catalogue-item h3{
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+    padding-top: 60px;
+}
+.page-number{
+    text-align: right;
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 10px;
+}
+@media (max-width:600px){
+    .catalogue-item{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+nav{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+
