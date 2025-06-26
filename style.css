@@ -59,4 +59,18 @@
     color:black;
     background-color: azure;
 }
+@media screen and(max-width:768px){
+    body{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .your-main-container{
+        flex-direction: column;
+        text-align: center1;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
 
