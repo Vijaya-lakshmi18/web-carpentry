@@ -22,7 +22,7 @@
     height: auto;
 }
 .textbox{
-    /*position: absolute;
+    position: absolute;
     top:400px;
     left:100px;
     background-color: cornsilk;
@@ -31,13 +31,13 @@
     padding: 10px;
     max-width: 400px;
     width: 90%;
-    transform: translate(-50%);
-    box-sizing: border-box;*/
-    position: static;
+    transform: translate(-50%);git
+    box-sizing: border-box;
+   /* position: static;
     width: 90%;
     margin:20px auto;
     padding: 10px;
-    text-align: center;
+    text-align: center;*/
 }
 .textbox h1{
     font-size: 1.2rem;
