@@ -30,10 +30,10 @@
     border-radius: 5px;
     padding: 10px;
     max-width: 400px;
-    width: 90%;
-    transform: translate(-50%)
+    width: 400%;
+   /* transform: translate(-50%)
     
-   /* position: static;
+    position: static;
     width: 90%;
     margin:20px auto;
     padding: 10px;
@@ -46,11 +46,9 @@
     font-size: 1rem;
 }
 #one{
-   /* text-align: center;
-    padding-top: 20px;*/
-    width:90%;
-    margin: auto;
-    
+    text-align: center;
+    padding-top: 20px;
+  
 }
 .one{
     padding-top: 20px;
@@ -80,6 +78,7 @@
 @media screen and(max-width:768px){
     .imgcontainer{
         width: 100%;
+        align-items: center;
     }
 }
 
