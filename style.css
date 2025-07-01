@@ -6,31 +6,39 @@
 *{
     padding: 0;
     margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.img container{
+.hero{
     position: relative;
-    max-width:800px;
     width: 100%;
-    margin: auto;
+    max-height: 400px;
+    overflow: hidden;
 }
-.img container img{
-    width: 100px;
+/*.img container{
+    position: relative;
+    max-width:500px;
+    width: 100%;
+    overflow: hidden;
+}*/
+.hero img{
+    width: 100%;
     display: block;
     background-color: rgb(33, 36, 36);
-    height: auto;
+   height: auto;
 }
 .textbox{
     position: absolute;
-    top:400px;
-    left:100px;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
     background-color: cornsilk;
     color: black;
-    border-radius: 5px;
-    padding: 10px;
-    max-width: 400px;
-    width: 400%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+   
    /* transform: translate(-50%)
     
     position: static;
@@ -39,26 +47,20 @@
     padding: 10px;
     text-align: center;*/
 }
-.textbox h1{
-    font-size:1.2rem;
+.textbox h2{
+    font-size:1.5rem;
+    margin-bottom: 10px;
 }
 .textbox p{
     font-size: 1rem;
-}
-#one{
-    text-align: center;
-    padding-top: 20px;
-  
-}
-.one{
-    padding-top: 20px;
 }
 .main{
     background-color:rgb(33, 36, 36);
     color:aliceblue;
     margin:20px;
-    padding-bottom: 20px;
-    font-size:larger;
+    padding: 30px 20px;
+    font-size:1.1rem;
+    text-align: center;
     
 }
 .main:hover{
@@ -66,19 +68,38 @@
     color: black;
 }
 .footer{
-    width:100%;
     background-color:lightsteelblue;
-    padding:10px 0;
-    color:white;
+    padding:15px;
+    text-align: center;
 }
 .footer:hover{
     color:black;
     background-color: azure;
 }
-@media screen and(max-width:768px){
-    .imgcontainer{
-        width: 100%;
-        align-items: center;
+.footer a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+@media(max-width:768px){
+    .textbox{
+        position: static;
+        background-color: cornsilk;
+        margin: 20px auto;
+        width: 90%;
+        text-align: center;
+    }
+    .textbox h2{
+        font-size: 1.3rem;
+    }
+    .textbox p{
+        font-size: 1rem;
+    }
+    .section-title{
+        font-size: 1.5rem;
+    }
+    .main{
+        font-size: 1rem;
     }
 }
 
